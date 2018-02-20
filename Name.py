@@ -1,7 +1,7 @@
 def spam():
     eggs = 'spam local'
     print(eggs) # prints 'spam local'
-    def bacon():
+def bacon():
 
         eggs = 'bacon local'
         print(eggs) # prints 'bacon local'
@@ -11,4 +11,3 @@ def spam():
         eggs = 'global'
         bacon()
         print (eggs) # prints 'global'
-        
