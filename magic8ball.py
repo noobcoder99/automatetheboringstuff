@@ -6,7 +6,6 @@ def getAnswer(answerNumber):
         return 'It is decidedly so'
     elif answerNumber == 3:
         return 'Yes'
-
         r = random.ranit(1, 3)
         fortune = getAnswer(r)
         print(fortune)
