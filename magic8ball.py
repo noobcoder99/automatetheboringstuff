@@ -7,7 +7,9 @@ def getAnswer(answerNumber):
         return 'It is decidedly so'
     elif answerNumber == 3:
         return 'Yes'
+    elif answerNumber == 4:
+        return 'It was maybe'
 
-r = random.randint(1, 3)
+r = random.randint(1, 4)
 fortune = getAnswer(r)
 print(fortune)
