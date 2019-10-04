@@ -1,7 +1,7 @@
 # isX string methods example
 
 while True:
-    print ('Enter your age')
+    print('Enter your age')
     age = input()
     if age.isdecimal():
         break
@@ -10,6 +10,6 @@ while True:
 while True:
     print('Select a new password (letters and numbers only:)')
     password = input()
-    if password.isanum():
+    if password.isalnum():
        break
     print('Passwords can only have letters and numbers')
